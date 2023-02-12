@@ -1,9 +1,7 @@
 import { useFilteredData } from 'hooks/useFilteredData';
 import useOnClickOutside from 'hooks/useOutsideClick';
-import { IBreed } from 'interface/breed.interface';
 import React, { ComponentPropsWithoutRef, ReactNode, useMemo, useState } from 'react';
 import styled from "styled-components"
-
 
 
  /**
