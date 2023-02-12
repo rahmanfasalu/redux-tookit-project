@@ -26,7 +26,7 @@ function Home() {
          maybeOnChange={(item:IBreed)=>{
           console.log("Current Selected",item);
          }}
-         defaultVal={breeds ? breeds[0] : undefined}
+         defaultVal={undefined}
         />
     </div>
   );
